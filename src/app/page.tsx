@@ -1,5 +1,4 @@
 ﻿"use client";
-
 import { motion } from "framer-motion";
 import { Mail, MapPin, Phone } from "lucide-react";
 import Image from "next/image";
@@ -64,7 +63,7 @@ export default function Home() {
             </a>
 
             <a
-             href="mailto:migueljuanguerrerot@gmail.com?subject=Proceso%20de%20Selección&body=Hola%20Juan,%20quisiera%20contactarte%20respecto%20a%20una%20oportunidad%20laboral."
+             href="mailto:migueljuanguerrerot@gmail.com?subject=Proceso%20de%20Seleccion&body=Hola%20Juan%2C%20quisiera%20contactarte%20respecto%20a%20una%20oportunidad%20laboral."
              className="border border-slate-600 hover:border-blue-500 hover:text-blue-400 px-8 py-4 rounded-2xl transition inline-block"
             >
               Enviar correo
@@ -143,3 +142,5 @@ export default function Home() {
     </main>
   );
 }
+
+
